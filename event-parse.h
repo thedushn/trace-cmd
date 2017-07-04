@@ -59,6 +59,8 @@ struct pevent_record {
 #endif
 };
 
+
+
 enum trace_seq_fail {
 	TRACE_SEQ__GOOD,
 	TRACE_SEQ__BUFFER_POISONED,
@@ -103,6 +105,8 @@ struct event_format;
 
 typedef int (*pevent_event_handler_func)(struct trace_seq *s,
 					 struct pevent_record *record,
+
+
 					 struct event_format *event,
 					 void *context);
 

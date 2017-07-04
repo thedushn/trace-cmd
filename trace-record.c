@@ -4203,6 +4203,7 @@ void trace_record (int argc, char **argv)
 
 	int c;
 
+    char *fluffy;
 	init_instance(instance);
 
 	cpu_count = count_cpus();
@@ -4393,7 +4394,7 @@ void trace_record (int argc, char **argv)
 			}
 			break;
 		case 'e':
-			events = 1;
+			/*events = 1;
 			event = malloc(sizeof(*event));
 			if (!event)
 				die("Failed to allocate event %s", optarg);
@@ -4405,7 +4406,8 @@ void trace_record (int argc, char **argv)
 			last_event = event;
 
 			if (!record_all)
-				list_event(optarg);
+				list_event(optarg);*/
+			add_func(&instance->filter_funcs, optarg);
 			break;
 		case 'f':
 			if (!last_event)
@@ -4473,7 +4475,10 @@ void trace_record (int argc, char **argv)
 			neg_event = 1;
 			break;
 		case 'l':
-			add_func(&instance->filter_funcs, optarg);
+
+                        fluffy=strchr(optarg,':');
+                        printf("%s fluffy was here",fluffy);
+            add_func(&instance->filter_funcs, fluffy);
 			break;
 		case 'n':
 			add_func(&instance->notrace_funcs, optarg);

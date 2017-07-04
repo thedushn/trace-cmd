@@ -1455,6 +1455,7 @@ handle_display_event_clicked (gpointer data, gboolean raw)
 {
 	struct shark_info *info = data;
 	struct pevent_record *record;
+	struct pevent_record *record2;
 	struct pevent *pevent;
 	TraceViewRecord *vrec;
 	GtkTreeModel *model;
@@ -1479,6 +1480,16 @@ handle_display_event_clicked (gpointer data, gboolean raw)
 				 pevent, record, raw);
 
 	free_record(record);
+
+    record2 = tracecmd_read_at(info->handle, offset, &cpu);
+    if (!record2)
+        return;
+
+    pevent = tracecmd_get_pevent(info->handle);
+    trace_show_record_dialog(GTK_WINDOW(info->window),
+                             pevent, record2, raw);
+
+    free_record(record2);
 }
 
 static void
@@ -1562,6 +1573,7 @@ do_tree_popup(GtkWidget *widget, GdkEventButton *event, gpointer data)
 	static GtkWidget *menu_display_event;
 	static GtkWidget *menu_display_raw_event;
 	struct pevent_record *record;
+    struct pevent_record *record2;
 	TraceViewRecord *vrec;
 	GtkTreeModel *model;
 	const char *comm;
@@ -1662,8 +1674,8 @@ do_tree_popup(GtkWidget *widget, GdkEventButton *event, gpointer data)
 		offset = vrec->offset;
 
 		record = tracecmd_read_at(info->handle, offset, &cpu);
-
-		if (record) {
+        
+		if ( record) {
 			pid = pevent_data_pid(ginfo->pevent, record);
 			comm = pevent_data_comm_from_pid(ginfo->pevent, pid);
 
@@ -1717,6 +1729,7 @@ do_tree_popup(GtkWidget *widget, GdkEventButton *event, gpointer data)
 				gtk_widget_show(menu_filter_graph_add_task);
 				gtk_widget_show(menu_filter_graph_hide_task);
 			}
+
 
 			ginfo->filter_task_selected = pid;
 
@@ -2321,8 +2334,10 @@ void kernel_shark(int argc, char **argv)
 
 	sub_item = gtk_menu_item_new_with_label("Record");
 
+
 	/* Add them to the menu */
 	gtk_menu_shell_append(GTK_MENU_SHELL (menu), sub_item);
+
 
 	/* We can attach the Quit menu item to our exit function */
 	g_signal_connect_swapped (G_OBJECT (sub_item), "activate",
@@ -2332,7 +2347,21 @@ void kernel_shark(int argc, char **argv)
 	/* We do need to show menu items */
 	gtk_widget_show(sub_item);
 
-	/* --- End Capture Options --- */
+    /* --Capture - Record2 Option-- */
+    sub_item = gtk_menu_item_new_with_label("Record2");
+
+    /* Add them to the menu */
+    gtk_menu_shell_append(GTK_MENU_SHELL (menu), sub_item);
+
+    /* We can attach the Quit menu item to our exit function */
+    g_signal_connect_swapped (G_OBJECT (sub_item), "activate",
+                              G_CALLBACK (plot_tasks_clicked),
+                              (gpointer) info);
+    /* We do need to show menu items */
+    gtk_widget_show(sub_item);
+
+
+    /* --- End Capture Options --- */
 	gtk_menu_item_set_submenu(GTK_MENU_ITEM (menu_item), menu);
 
 
