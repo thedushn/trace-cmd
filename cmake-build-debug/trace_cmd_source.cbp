@@ -1,0 +1,411 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="trace_cmd_source"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/dushn/trace-cmd-source/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/dushn/trace-cmd-source/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/dushn/trace-cmd-source/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/dushn/trace-cmd-source/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/dushn/trace-cmd-source/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/dushn/trace-cmd-source/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/dushn/trace-cmd-source/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/dushn/trace-cmd-source/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/dushn/trace-cmd-source/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/dushn/trace-cmd-source/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/dushn/trace-cmd-source/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/dushn/trace-cmd-source/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/dushn/trace-cmd-source/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/dushn/trace-cmd-source/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/dushn/trace-cmd-source/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="trace_cmd_source">
+				<Option output="/home/dushn/trace-cmd-source/cmake-build-debug/trace_cmd_source" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/dushn/trace-cmd-source/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/freetype2"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/freetype2"/>
+					<Add directory="/usr/include/glib-2.0"/>
+					<Add directory="/usr/lib/x86_64-linux-gnu/glib-2.0/include"/>
+					<Add directory="/usr/include/atk-1.0"/>
+					<Add directory="/usr/include/gdk-pixbuf-2.0"/>
+					<Add directory="/usr/include/cairo"/>
+					<Add directory="/usr/include/pango-1.0"/>
+					<Add directory="/usr/include/gtk-2.0"/>
+					<Add directory="/usr/lib/x86_64-linux-gnu/gtk-2.0/include"/>
+					<Add directory="/usr/include/gtk-3.0"/>
+					<Add directory="/usr/include/at-spi2-atk/2.0"/>
+					<Add directory="/usr/include/at-spi-2.0"/>
+					<Add directory="/usr/include/dbus-1.0"/>
+					<Add directory="/usr/lib/x86_64-linux-gnu/dbus-1.0/include"/>
+					<Add directory="/usr/include/gio-unix-2.0"/>
+					<Add directory="/usr/include/mirclient"/>
+					<Add directory="/usr/include/mircore"/>
+					<Add directory="/usr/include/mircookie"/>
+					<Add directory="/usr/include/harfbuzz"/>
+					<Add directory="/usr/include/pixman-1"/>
+					<Add directory="/usr/include/libpng12"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/dushn/trace-cmd-source/cmake-build-debug/Makefile&quot;  VERBOSE=1 trace_cmd_source"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/dushn/trace-cmd-source/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/dushn/trace-cmd-source/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/dushn/trace-cmd-source/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="trace_cmd_source/fast">
+				<Option output="/home/dushn/trace-cmd-source/cmake-build-debug/trace_cmd_source" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/dushn/trace-cmd-source/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/freetype2"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/freetype2"/>
+					<Add directory="/usr/include/glib-2.0"/>
+					<Add directory="/usr/lib/x86_64-linux-gnu/glib-2.0/include"/>
+					<Add directory="/usr/include/atk-1.0"/>
+					<Add directory="/usr/include/gdk-pixbuf-2.0"/>
+					<Add directory="/usr/include/cairo"/>
+					<Add directory="/usr/include/pango-1.0"/>
+					<Add directory="/usr/include/gtk-2.0"/>
+					<Add directory="/usr/lib/x86_64-linux-gnu/gtk-2.0/include"/>
+					<Add directory="/usr/include/gtk-3.0"/>
+					<Add directory="/usr/include/at-spi2-atk/2.0"/>
+					<Add directory="/usr/include/at-spi-2.0"/>
+					<Add directory="/usr/include/dbus-1.0"/>
+					<Add directory="/usr/lib/x86_64-linux-gnu/dbus-1.0/include"/>
+					<Add directory="/usr/include/gio-unix-2.0"/>
+					<Add directory="/usr/include/mirclient"/>
+					<Add directory="/usr/include/mircore"/>
+					<Add directory="/usr/include/mircookie"/>
+					<Add directory="/usr/include/harfbuzz"/>
+					<Add directory="/usr/include/pixman-1"/>
+					<Add directory="/usr/include/libpng12"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/dushn/trace-cmd-source/cmake-build-debug/Makefile&quot;  VERBOSE=1 trace_cmd_source/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/dushn/trace-cmd-source/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/dushn/trace-cmd-source/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/dushn/trace-cmd-source/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/dushn/trace-cmd-source/bug.h">
+			<Option target="trace_cmd_source"/>
+		</Unit>
+		<Unit filename="/home/dushn/trace-cmd-source/cpu.h">
+			<Option target="trace_cmd_source"/>
+		</Unit>
+		<Unit filename="/home/dushn/trace-cmd-source/ctracecmd.i">
+			<Option target="trace_cmd_source"/>
+		</Unit>
+		<Unit filename="/home/dushn/trace-cmd-source/ctracecmd_wrap.c">
+			<Option target="trace_cmd_source"/>
+		</Unit>
+		<Unit filename="/home/dushn/trace-cmd-source/ctracecmdgui.i">
+			<Option target="trace_cmd_source"/>
+		</Unit>
+		<Unit filename="/home/dushn/trace-cmd-source/event-parse.c">
+			<Option target="trace_cmd_source"/>
+		</Unit>
+		<Unit filename="/home/dushn/trace-cmd-source/event-parse.h">
+			<Option target="trace_cmd_source"/>
+		</Unit>
+		<Unit filename="/home/dushn/trace-cmd-source/event-plugin.c">
+			<Option target="trace_cmd_source"/>
+		</Unit>
+		<Unit filename="/home/dushn/trace-cmd-source/event-utils.h">
+			<Option target="trace_cmd_source"/>
+		</Unit>
+		<Unit filename="/home/dushn/trace-cmd-source/include/linux/string.h">
+			<Option target="trace_cmd_source"/>
+		</Unit>
+		<Unit filename="/home/dushn/trace-cmd-source/include/linux/time64.h">
+			<Option target="trace_cmd_source"/>
+		</Unit>
+		<Unit filename="/home/dushn/trace-cmd-source/kbuffer-parse.c">
+			<Option target="trace_cmd_source"/>
+		</Unit>
+		<Unit filename="/home/dushn/trace-cmd-source/kbuffer.h">
+			<Option target="trace_cmd_source"/>
+		</Unit>
+		<Unit filename="/home/dushn/trace-cmd-source/kernel-shark.c">
+			<Option target="trace_cmd_source"/>
+		</Unit>
+		<Unit filename="/home/dushn/trace-cmd-source/kernel-shark.h">
+			<Option target="trace_cmd_source"/>
+		</Unit>
+		<Unit filename="/home/dushn/trace-cmd-source/ks_version.h">
+			<Option target="trace_cmd_source"/>
+		</Unit>
+		<Unit filename="/home/dushn/trace-cmd-source/kshark-plugin.h">
+			<Option target="trace_cmd_source"/>
+		</Unit>
+		<Unit filename="/home/dushn/trace-cmd-source/list.h">
+			<Option target="trace_cmd_source"/>
+		</Unit>
+		<Unit filename="/home/dushn/trace-cmd-source/parse-filter.c">
+			<Option target="trace_cmd_source"/>
+		</Unit>
+		<Unit filename="/home/dushn/trace-cmd-source/parse-utils.c">
+			<Option target="trace_cmd_source"/>
+		</Unit>
+		<Unit filename="/home/dushn/trace-cmd-source/plugin_blk.c">
+			<Option target="trace_cmd_source"/>
+		</Unit>
+		<Unit filename="/home/dushn/trace-cmd-source/plugin_cfg80211.c">
+			<Option target="trace_cmd_source"/>
+		</Unit>
+		<Unit filename="/home/dushn/trace-cmd-source/plugin_function.c">
+			<Option target="trace_cmd_source"/>
+		</Unit>
+		<Unit filename="/home/dushn/trace-cmd-source/plugin_hrtimer.c">
+			<Option target="trace_cmd_source"/>
+		</Unit>
+		<Unit filename="/home/dushn/trace-cmd-source/plugin_jbd2.c">
+			<Option target="trace_cmd_source"/>
+		</Unit>
+		<Unit filename="/home/dushn/trace-cmd-source/plugin_kmem.c">
+			<Option target="trace_cmd_source"/>
+		</Unit>
+		<Unit filename="/home/dushn/trace-cmd-source/plugin_kvm.c">
+			<Option target="trace_cmd_source"/>
+		</Unit>
+		<Unit filename="/home/dushn/trace-cmd-source/plugin_mac80211.c">
+			<Option target="trace_cmd_source"/>
+		</Unit>
+		<Unit filename="/home/dushn/trace-cmd-source/plugin_python.c">
+			<Option target="trace_cmd_source"/>
+		</Unit>
+		<Unit filename="/home/dushn/trace-cmd-source/plugin_sched_switch.c">
+			<Option target="trace_cmd_source"/>
+		</Unit>
+		<Unit filename="/home/dushn/trace-cmd-source/plugin_scsi.c">
+			<Option target="trace_cmd_source"/>
+		</Unit>
+		<Unit filename="/home/dushn/trace-cmd-source/plugin_tlb.c">
+			<Option target="trace_cmd_source"/>
+		</Unit>
+		<Unit filename="/home/dushn/trace-cmd-source/plugin_xen.c">
+			<Option target="trace_cmd_source"/>
+		</Unit>
+		<Unit filename="/home/dushn/trace-cmd-source/str_error_r.c">
+			<Option target="trace_cmd_source"/>
+		</Unit>
+		<Unit filename="/home/dushn/trace-cmd-source/tc_version.h">
+			<Option target="trace_cmd_source"/>
+		</Unit>
+		<Unit filename="/home/dushn/trace-cmd-source/trace-blk-hack.c">
+			<Option target="trace_cmd_source"/>
+		</Unit>
+		<Unit filename="/home/dushn/trace-cmd-source/trace-capture.c">
+			<Option target="trace_cmd_source"/>
+		</Unit>
+		<Unit filename="/home/dushn/trace-cmd-source/trace-capture.h">
+			<Option target="trace_cmd_source"/>
+		</Unit>
+		<Unit filename="/home/dushn/trace-cmd-source/trace-check-events.c">
+			<Option target="trace_cmd_source"/>
+		</Unit>
+		<Unit filename="/home/dushn/trace-cmd-source/trace-cmd-local.h">
+			<Option target="trace_cmd_source"/>
+		</Unit>
+		<Unit filename="/home/dushn/trace-cmd-source/trace-cmd.c">
+			<Option target="trace_cmd_source"/>
+		</Unit>
+		<Unit filename="/home/dushn/trace-cmd-source/trace-cmd.h">
+			<Option target="trace_cmd_source"/>
+		</Unit>
+		<Unit filename="/home/dushn/trace-cmd-source/trace-compat.c">
+			<Option target="trace_cmd_source"/>
+		</Unit>
+		<Unit filename="/home/dushn/trace-cmd-source/trace-compat.h">
+			<Option target="trace_cmd_source"/>
+		</Unit>
+		<Unit filename="/home/dushn/trace-cmd-source/trace-dialog.c">
+			<Option target="trace_cmd_source"/>
+		</Unit>
+		<Unit filename="/home/dushn/trace-cmd-source/trace-filter-hash.c">
+			<Option target="trace_cmd_source"/>
+		</Unit>
+		<Unit filename="/home/dushn/trace-cmd-source/trace-filter-hash.h">
+			<Option target="trace_cmd_source"/>
+		</Unit>
+		<Unit filename="/home/dushn/trace-cmd-source/trace-filter.c">
+			<Option target="trace_cmd_source"/>
+		</Unit>
+		<Unit filename="/home/dushn/trace-cmd-source/trace-filter.h">
+			<Option target="trace_cmd_source"/>
+		</Unit>
+		<Unit filename="/home/dushn/trace-cmd-source/trace-ftrace.c">
+			<Option target="trace_cmd_source"/>
+		</Unit>
+		<Unit filename="/home/dushn/trace-cmd-source/trace-graph-main.c">
+			<Option target="trace_cmd_source"/>
+		</Unit>
+		<Unit filename="/home/dushn/trace-cmd-source/trace-graph.c">
+			<Option target="trace_cmd_source"/>
+		</Unit>
+		<Unit filename="/home/dushn/trace-cmd-source/trace-graph.h">
+			<Option target="trace_cmd_source"/>
+		</Unit>
+		<Unit filename="/home/dushn/trace-cmd-source/trace-gui.h">
+			<Option target="trace_cmd_source"/>
+		</Unit>
+		<Unit filename="/home/dushn/trace-cmd-source/trace-hash-local.h">
+			<Option target="trace_cmd_source"/>
+		</Unit>
+		<Unit filename="/home/dushn/trace-cmd-source/trace-hash.c">
+			<Option target="trace_cmd_source"/>
+		</Unit>
+		<Unit filename="/home/dushn/trace-cmd-source/trace-hash.h">
+			<Option target="trace_cmd_source"/>
+		</Unit>
+		<Unit filename="/home/dushn/trace-cmd-source/trace-hist.c">
+			<Option target="trace_cmd_source"/>
+		</Unit>
+		<Unit filename="/home/dushn/trace-cmd-source/trace-hooks.c">
+			<Option target="trace_cmd_source"/>
+		</Unit>
+		<Unit filename="/home/dushn/trace-cmd-source/trace-input.c">
+			<Option target="trace_cmd_source"/>
+		</Unit>
+		<Unit filename="/home/dushn/trace-cmd-source/trace-list.c">
+			<Option target="trace_cmd_source"/>
+		</Unit>
+		<Unit filename="/home/dushn/trace-cmd-source/trace-listen.c">
+			<Option target="trace_cmd_source"/>
+		</Unit>
+		<Unit filename="/home/dushn/trace-cmd-source/trace-local.h">
+			<Option target="trace_cmd_source"/>
+		</Unit>
+		<Unit filename="/home/dushn/trace-cmd-source/trace-mem.c">
+			<Option target="trace_cmd_source"/>
+		</Unit>
+		<Unit filename="/home/dushn/trace-cmd-source/trace-msg.c">
+			<Option target="trace_cmd_source"/>
+		</Unit>
+		<Unit filename="/home/dushn/trace-cmd-source/trace-msg.h">
+			<Option target="trace_cmd_source"/>
+		</Unit>
+		<Unit filename="/home/dushn/trace-cmd-source/trace-output.c">
+			<Option target="trace_cmd_source"/>
+		</Unit>
+		<Unit filename="/home/dushn/trace-cmd-source/trace-plot-cpu.c">
+			<Option target="trace_cmd_source"/>
+		</Unit>
+		<Unit filename="/home/dushn/trace-cmd-source/trace-plot-task.c">
+			<Option target="trace_cmd_source"/>
+		</Unit>
+		<Unit filename="/home/dushn/trace-cmd-source/trace-plot.c">
+			<Option target="trace_cmd_source"/>
+		</Unit>
+		<Unit filename="/home/dushn/trace-cmd-source/trace-profile.c">
+			<Option target="trace_cmd_source"/>
+		</Unit>
+		<Unit filename="/home/dushn/trace-cmd-source/trace-read.c">
+			<Option target="trace_cmd_source"/>
+		</Unit>
+		<Unit filename="/home/dushn/trace-cmd-source/trace-record.c">
+			<Option target="trace_cmd_source"/>
+		</Unit>
+		<Unit filename="/home/dushn/trace-cmd-source/trace-recorder.c">
+			<Option target="trace_cmd_source"/>
+		</Unit>
+		<Unit filename="/home/dushn/trace-cmd-source/trace-restore.c">
+			<Option target="trace_cmd_source"/>
+		</Unit>
+		<Unit filename="/home/dushn/trace-cmd-source/trace-seq.c">
+			<Option target="trace_cmd_source"/>
+		</Unit>
+		<Unit filename="/home/dushn/trace-cmd-source/trace-show.c">
+			<Option target="trace_cmd_source"/>
+		</Unit>
+		<Unit filename="/home/dushn/trace-cmd-source/trace-snapshot.c">
+			<Option target="trace_cmd_source"/>
+		</Unit>
+		<Unit filename="/home/dushn/trace-cmd-source/trace-split.c">
+			<Option target="trace_cmd_source"/>
+		</Unit>
+		<Unit filename="/home/dushn/trace-cmd-source/trace-stack.c">
+			<Option target="trace_cmd_source"/>
+		</Unit>
+		<Unit filename="/home/dushn/trace-cmd-source/trace-stat.c">
+			<Option target="trace_cmd_source"/>
+		</Unit>
+		<Unit filename="/home/dushn/trace-cmd-source/trace-stream.c">
+			<Option target="trace_cmd_source"/>
+		</Unit>
+		<Unit filename="/home/dushn/trace-cmd-source/trace-usage.c">
+			<Option target="trace_cmd_source"/>
+		</Unit>
+		<Unit filename="/home/dushn/trace-cmd-source/trace-util.c">
+			<Option target="trace_cmd_source"/>
+		</Unit>
+		<Unit filename="/home/dushn/trace-cmd-source/trace-view-main.c">
+			<Option target="trace_cmd_source"/>
+		</Unit>
+		<Unit filename="/home/dushn/trace-cmd-source/trace-view-store.c">
+			<Option target="trace_cmd_source"/>
+		</Unit>
+		<Unit filename="/home/dushn/trace-cmd-source/trace-view-store.h">
+			<Option target="trace_cmd_source"/>
+		</Unit>
+		<Unit filename="/home/dushn/trace-cmd-source/trace-view.c">
+			<Option target="trace_cmd_source"/>
+		</Unit>
+		<Unit filename="/home/dushn/trace-cmd-source/trace-view.h">
+			<Option target="trace_cmd_source"/>
+		</Unit>
+		<Unit filename="/home/dushn/trace-cmd-source/trace-xml.c">
+			<Option target="trace_cmd_source"/>
+		</Unit>
+		<Unit filename="/home/dushn/trace-cmd-source/trace-xml.h">
+			<Option target="trace_cmd_source"/>
+		</Unit>
+		<Unit filename="/home/dushn/trace-cmd-source/version.h">
+			<Option target="trace_cmd_source"/>
+		</Unit>
+		<Unit filename="/home/dushn/trace-cmd-source/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

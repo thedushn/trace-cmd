@@ -1,0 +1,3 @@
+/home/dushn/trace-cmd-source/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/dushn/trace-cmd-source/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/dushn/trace-cmd-source/cmake-build-debug/CMakeFiles/trace_cmd_source.dir
